@@ -72,12 +72,12 @@ For successful authentication you need to send a POST-parameter **nonce** with i
 
 Example of using nonce values:
 
-1 запрос: nonce=1 \
-2 запрос: nonce=2 \
-3 запрос: nonce=10 \
-4 запрос: nonce=10 — an error will be displayed, because nonce is equal to the previous request \
-5 запрос: nonce=11 \
-6 запрос: nonce=9 — an error will be displayed, because nonce is smaller than the nonce value in the API key
+1 request: nonce=1 \
+2 request: nonce=2 \
+3 request: nonce=10 \
+4 request: nonce=10 — an error will be displayed, because nonce is equal to the previous request \
+5 request: nonce=11 \
+6 request: nonce=9 — an error will be displayed, because nonce is smaller than the nonce value in the API key
 
 Minimum nonce value - 1, maximum - 4294967294.
 To reset the nonce value you need to create a new key.

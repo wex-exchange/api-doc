@@ -15,7 +15,7 @@ ___
 This api provides access to such information as tickers of currency pairs, active orders on different pairs, the latest trades for each pair etc.
 
 All API requests are made from this address: \
-https://wex.nz/api/3/<method name>/<pair listing>
+https://wex.nz/api/3/<method_name>/<pair_listing>
 
 Currency pairs are hyphen-separated (-), e.g.: \
 https://wex.nz/api/3/ticker/btc_usd-btc_rur

@@ -781,6 +781,7 @@ ___
 
 *Python*: https://github.com/madmis/wexapi by madmis \
 *C#:* https://github.com/Falweek/WexAPI by Falweek \
+*C#:* https://github.com/multiprogramm/WexAPI by multiprogramm\
 *Excel/VBA:* https://github.com/krijnsent/crypto_vba by Koen Rijnsent
 
 **Deprecated**: 
@@ -795,7 +796,6 @@ ___
 *Java:* https://github.com/alexandersjn/btc_e_assist_api \
 *Java:* https://github.com/Yocairo/BTCE_API_Lib \
 *C#:* https://github.com/DmT021/BtceApi \
-*C#:* https://github.com/multiprogramm/WexAPI \
 *С# .NET:* https://bitbucket.org/EldarG/btceapi \
 *C++/CLI:* http://pastebin.com/YvxmCRL9 \
 *C++11:* https://github.com/halcyonx/btc-e-API \

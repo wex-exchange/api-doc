@@ -151,12 +151,13 @@ Each pair has a different limit on the minimum/maximum amounts, the minimum amou
 
 **Parameters:**
  
-| Parameter      | Description                                  | Assumes value                                | 
-| :------------  |:---------------------------------------------|:---------------------------------------------|
-| pair           | pair                                         |  "currency_currency", for example: "btc_usd" |
-| type           | order type                                   |  "buy" or "sell"                             |
-| rate           | the rate at which you need to buy/sell       |  numerical, for example "1.4"                |
-| amount         | the amount you need to buy / sell            |  numerical, for example "7566.351"           |
+| Parameter      | Description                                                         | Assumes value                                | 
+| :------------  |:--------------------------------------------------------------------|:---------------------------------------------|
+| pair           | pair                                                                |  "currency_currency", for example: "btc_usd" |
+| type           | order side                                                          |  "buy" or "sell"                             |
+| rate           | the rate at which you need to buy/sell                              |  numerical, for example "1.4"                |
+| mode           | order type                                                          |  "market" or "limit" (**limit** by default)  |
+| amount         | the amount you need to buy / sell (required if order type is limit) |  numerical, for example "7566.351"           |
 
 You can get the list of pairs using the info method in PublicAPI v3.
 

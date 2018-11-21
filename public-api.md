@@ -15,20 +15,20 @@ ___
 This api provides access to such information as tickers of currency pairs, active orders on different pairs, the latest trades for each pair etc.
 
 All API requests are made from this address: \
-https://wex.nz/api/3/<method_name>/<pair_listing>
+https://wex.link/api/3/<method_name>/<pair_listing>
 
 Currency pairs are hyphen-separated (-), e.g.: \
-https://wex.nz/api/3/ticker/btc_usd-btc_rur
+https://wex.link/api/3/ticker/btc_usd-btc_rur
 
 You can use as many pairs in the listing as you wish. Duplicates are not allowed. It is also possible to use only one pair: \
-https://wex.nz/api/3/ticker/btc_usd \
+https://wex.link/api/3/ticker/btc_usd \
 A set of pairs works with all the methods presented in the public api except info.
 
 All information is cached every 2 seconds, so there's no point in making more frequent requests. \
 All API responses have the following format JSON.
 
 **Important!** API will display an error if we disable one of the pairs listed in your request. If you are not going to synchronize the state of pairs using the method info, you need to send the GET-parameter ignore_invalid equal to 1, e.g.: \
-https://wex.nz/api/3/ticker/btc_usd-btc_btc?ignore_invalid=1 \
+https://wex.link/api/3/ticker/btc_usd-btc_btc?ignore_invalid=1 \
 Without the parameter ignore_invalid this request would have caused an error because of a non-existent pair.
 
 ##### [to the top](#begin)
@@ -42,7 +42,7 @@ This method provides all the information about currently active pairs, such as t
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/info
+  https://wex.link/api/3/info
 ```
 
 **Response example:**
@@ -86,7 +86,7 @@ All information is provided over the past 24 hours.
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/ticker/btc_usd
+  https://wex.link/api/3/ticker/btc_usd
 ```
 
 **Response example:**
@@ -130,7 +130,7 @@ Is set to less than 5000.
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/depth/btc_usd
+  https://wex.link/api/3/depth/btc_usd
 ```
 
 **Response example:**
@@ -197,7 +197,7 @@ The maximum allowable value is 5000.
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/trades/btc_usd
+  https://wex.link/api/3/trades/btc_usd
 ```
 
 **Response example:**

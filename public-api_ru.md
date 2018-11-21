@@ -15,20 +15,20 @@ ___
 Данный апи предоставляет возможность доступа к такой информации, как: тикеры пар, активные ордера пар, последние торги по паре и др.
 
 Все запросы к API идут по следующему адресу: \
-https://wex.nz/api/3/<имя метода>/<перечисление пар>
+https://wex.link/api/3/<имя метода>/<перечисление пар>
 
 Пары перечисляются используя знак тире (-) для разделения, например: \
-https://wex.nz/api/3/ticker/btc_usd-btc_rur
+https://wex.link/api/3/ticker/btc_usd-btc_rur
 
 Можно использовать любое количество пар в перечислении. Дубликаты не допускаются. Так же можно использовать только одну пару, например: \
-https://wex.nz/api/3/ticker/btc_usd \
+https://wex.link/api/3/ticker/btc_usd \
 Множество пар работает со всеми методами представленными в паблик апи, кроме info.
 
 Вся информация кэшируется каждые 2 секунды, поэтому нет смысла делать запросы чаще. \
 Все ответы от апи приходят в формате JSON.
 
 **Важно!** Апи начнет выдавать ошибку, если мы отключим одну из пар перечисленных в вашем запросе. Если вы не собираетесь синхронизировать состояние пар через метод info, стоит присылать GET-параметр ignore_invalid равным 1, например: \
-https://wex.nz/api/3/ticker/btc_usd-btc_btc?ignore_invalid=1 \
+https://wex.link/api/3/ticker/btc_usd-btc_btc?ignore_invalid=1 \
 Без параметра ignore_invalid этот запрос вызвал бы ошибку из-за несуществующей пары.
 
 ##### [В начало](#begin)
@@ -42,7 +42,7 @@ ___
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/info
+  https://wex.link/api/3/info
 ```
 
 **Пример ответа:**
@@ -86,7 +86,7 @@ ___
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/ticker/btc_usd
+  https://wex.link/api/3/ticker/btc_usd
 ```
 
 **Пример ответа:**
@@ -130,7 +130,7 @@ ___
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/depth/btc_usd
+  https://wex.link/api/3/depth/btc_usd
 ```
 
 **Пример ответа:**
@@ -197,7 +197,7 @@ ___
 
 ```bash
 curl -X GET \
-  https://wex.nz/api/3/trades/btc_usd
+  https://wex.link/api/3/trades/btc_usd
 ```
 
 **Пример ответа:**

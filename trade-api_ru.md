@@ -31,7 +31,7 @@ API-ключ можно создать в профиле, раздел API-кл�
 Обратите внимание на то, что получить секрет ключа можно только в первый час после создания ключа.
 Данные API-ключа используются для аутентификации.
 
-Все запросы к TradeAPI идут по следующему URL: https://wex.nz/tapi
+Все запросы к TradeAPI идут по следующему URL: https://wex.link/tapi
 
 Имя метода отправляется посредством POST-параметра method.
 Все параметры методов отправляется через POST-параметры.
@@ -104,7 +104,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -172,7 +172,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 SIGN="1382324e3d24e8579787135...f2107ffe61c9b8bb7" # Your API-key sign
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -229,7 +229,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -283,7 +283,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -339,7 +339,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -387,7 +387,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -452,7 +452,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -515,7 +515,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -569,7 +569,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -625,7 +625,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -684,7 +684,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
@@ -741,7 +741,7 @@ KEY="J2UF00BF-OZ8X02EW-F7W37LYM-VCLWIBIU-XQG2HO1W" # Your API-key
 NONCE="123456" # Next API-key nonce
 
 curl -X POST \
-  "https://wex.nz/tapi"\
+  "https://wex.link/tapi"\
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Key: $KEY" \
   -H "Sign: $SIGN" \
